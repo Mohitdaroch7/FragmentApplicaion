@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.fragmentapplicaion.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.fragmentapplicaion.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" />
+    <fragment
+        android:id="@+id/screenFragment"
+        android:name="com.example.fragmentapplicaion.ScreenFragment"
+        android:label="fragment_screen"
+        tools:layout="@layout/fragment_screen" />
+    <fragment
+        android:id="@+id/phoneFragment"
+        android:name="com.example.fragmentapplicaion.PhoneFragment"
+        android:label="fragment_phone"
+        tools:layout="@layout/fragment_phone" />
+    <fragment
+        android:id="@+id/forgetFragment"
+        android:name="com.example.fragmentapplicaion.ForgetFragment"
+        android:label="fragment_forget"
+        tools:layout="@layout/fragment_forget" />
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.example.fragmentapplicaion.OtpFragment"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp" />
+</navigation>

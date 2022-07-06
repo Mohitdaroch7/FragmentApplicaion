@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmentApplicaion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_does_not_match">PASSWORD DOES NOT MATCH</string>
+    <string name="password_is_empty_or_less_than_6_digits">PASSWORD IS EMPTY OR LESS THAN 6 DIGITS</string>
+    <string name="email_is_empty_or_invalid"> EMAIL IS EMPTY OR INVALID</string>
+    <string name="name_is_empty_or_incorrect">NAME IS EMPTY OR INCORRECT</string>
+</resources>
